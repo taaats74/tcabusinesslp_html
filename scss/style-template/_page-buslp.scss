@@ -587,10 +587,10 @@ header{
   .fv-page-business-lp {
     overflow: hidden;
     .container {
-      background-image: url(img/fv-bg.png);
+      background-image: none;
       background-position: center;
       background-size: cover;
-      padding: 10px 0 20px 0;
+      padding: 0;
 
       .wrapper {
         width: 83%;
@@ -666,6 +666,25 @@ header{
           }
         }
       }
+      .sp-wrapper{
+        position: relative;
+        >img{
+          position: relative;
+          z-index: 1;
+        }
+        a{
+          position: absolute;
+          width: 70%;
+          z-index: 2;
+          bottom: 3%;
+          right: 0;
+          left: 0;
+          margin: 0 auto;
+          .sp-btn{
+            width: 100%;
+          }
+        }
+      }
     }
   }
 
@@ -706,6 +725,7 @@ header{
               line-height: 1.5em;
               display: flex;
               align-items: center;
+              font-size: .9em;
               letter-spacing: 2px;
               margin-top: 20px;
 

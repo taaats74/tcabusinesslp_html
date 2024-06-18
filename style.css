@@ -793,10 +793,10 @@ header div {
     overflow: hidden;
   }
   .fv-page-business-lp .container {
-    background-image: url(img/fv-bg.png);
+    background-image: none;
     background-position: center;
     background-size: cover;
-    padding: 10px 0 20px 0;
+    padding: 0;
   }
   .fv-page-business-lp .container .wrapper {
     width: 83%;
@@ -870,6 +870,25 @@ header div {
     margin-left: auto;
     border-radius: 10px;
   }
+  .fv-page-business-lp .container .sp-wrapper {
+    position: relative;
+  }
+  .fv-page-business-lp .container .sp-wrapper > img {
+    position: relative;
+    z-index: 1;
+  }
+  .fv-page-business-lp .container .sp-wrapper a {
+    position: absolute;
+    width: 70%;
+    z-index: 2;
+    bottom: 3%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+  .fv-page-business-lp .container .sp-wrapper a .sp-btn {
+    width: 100%;
+  }
   .issue-page-business-lp .container {
     background-image: url(img/bg-onayami.png);
     background-position: center;
@@ -916,6 +935,7 @@ header div {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 0.9em;
     letter-spacing: 2px;
     margin-top: 20px;
   }
