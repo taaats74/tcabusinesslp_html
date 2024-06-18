@@ -170,8 +170,7 @@ header{
         box-shadow: 3px 3px 10px #4D4D4D;
         border-radius: 5px;
         position: absolute;
-        // bottom: -200px;
-        bottom: -90%;
+        top: 67%;
         left: 0;
         right: 0;
         z-index: 2;
@@ -319,6 +318,7 @@ header{
               left: 0;
               transform: translateY(-50%);
               text-align: left;
+              min-height: 120px;
             }
           }
           &+.feature{
@@ -334,7 +334,8 @@ header{
             transform: translateY(-50%);
             width: 52%;
             background: white;
-            height: 180px;
+            // height: 140px;
+            padding: 20px 0;
             border-bottom: solid 7px #4c3635;
             h3{
               font-family: "Halant", serif;
@@ -345,7 +346,6 @@ header{
               color: #9d870a;
               width: 85%;
               margin: 0 auto;
-              padding-top: 30px;
             }
             p{
               font-family: YuGothic, 'Yu Gothic', sans-serif;
@@ -477,6 +477,674 @@ header{
           position: absolute;
           top: 40%;
           left: 33%;
+        }
+      }
+    }
+  }
+}
+
+.sp {
+  display: none;
+}
+
+.pc {
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .fv-page-business-lp {
+    .container {
+      background-image: url(img/fv-bg.png);
+      background-position: center;
+      background-size: cover;
+      padding: 10px 0 20px 0;
+
+      .wrapper {
+        width: 83%;
+        max-width: 1200px;
+        min-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: translateY(20px);
+
+        .text-wrapper {
+          // transform: translateX(10%);
+          padding-left: 3%;
+
+          // background: blue;
+          .fv-message {
+            color: white;
+
+            h2 {
+              font-family: 'klee', sans-serif;
+              font-size: 2.2em;
+              line-height: 1.3em;
+              letter-spacing: 3px;
+            }
+
+            p {
+              font-family: 'klee', sans-serif;
+              line-height: 1.3em;
+              margin-top: 30px;
+              letter-spacing: 2px;
+            }
+          }
+
+          .btn {
+            margin-top: 30px;
+
+            a {
+              position: relative;
+              display: block;
+              width: 350px;
+              transition: .3s;
+
+              p {
+                position: absolute;
+                top: 32%;
+                left: 23%;
+                color: #38211f;
+                font-weight: bold;
+                font-size: 18px;
+                font-family: YuGothic, 'Yu Gothic', sans-serif;
+                letter-spacing: 1px;
+              }
+
+              &:hover {
+                opacity: .8;
+              }
+            }
+          }
+        }
+
+        .fv-img {
+          transform: translateY(20px);
+          width: 55%;
+          min-width: 300px;
+
+          img {
+            width: 100%;
+            display: block;
+            box-shadow: 3px 3px 10px #4D4D4D;
+            margin-left: auto;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .sp{
+    display: block;
+  }
+  .pc{
+    display: none;
+  }
+  .fv-page-business-lp {
+    overflow: hidden;
+    .container {
+      background-image: url(img/fv-bg.png);
+      background-position: center;
+      background-size: cover;
+      padding: 10px 0 20px 0;
+
+      .wrapper {
+        width: 83%;
+        max-width: 1200px;
+        min-width: 1000px;
+        margin: 0 auto;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        transform: translateY(20px);
+
+        .text-wrapper {
+          // transform: translateX(10%);
+          padding-left: 3%;
+
+          // background: blue;
+          .fv-message {
+            color: white;
+
+            h2 {
+              font-family: 'klee', sans-serif;
+              font-size: 2.2em;
+              line-height: 1.3em;
+              letter-spacing: 3px;
+            }
+
+            p {
+              font-family: 'klee', sans-serif;
+              line-height: 1.3em;
+              margin-top: 30px;
+              letter-spacing: 2px;
+            }
+          }
+
+          .btn {
+            margin-top: 30px;
+
+            a {
+              position: relative;
+              display: block;
+              width: 350px;
+              transition: .3s;
+
+              p {
+                position: absolute;
+                top: 32%;
+                left: 23%;
+                color: #38211f;
+                font-weight: bold;
+                font-size: 18px;
+                font-family: YuGothic, 'Yu Gothic', sans-serif;
+                letter-spacing: 1px;
+              }
+
+              &:hover {
+                opacity: .8;
+              }
+            }
+          }
+        }
+
+        .fv-img {
+          transform: translateY(20px);
+          width: 55%;
+          min-width: 300px;
+
+          img {
+            width: 100%;
+            display: block;
+            box-shadow: 3px 3px 10px #4D4D4D;
+            margin-left: auto;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .issue-page-business-lp {
+    .container {
+      background-image: url(img/bg-onayami.png);
+      background-position: center;
+      background-size: cover;
+
+      .wrapper {
+        padding: 80px 0;
+
+        h2 {
+          font-family: 'klee', sans-serif;
+          font-size: 1.4em;
+          padding: 0 10px;
+          text-align: center;
+          color: #37201d;
+          font-weight: bold;
+          letter-spacing: 2px;
+        }
+
+        .issue-wrapper {
+          display: block;
+          justify-content: space-between;
+          align-items: center;
+          padding: 30px 10px;
+          background: #dcd4d4;
+          width: 80%;
+          max-width: 450px;
+          margin: 0 auto;
+          margin-top: 40px;
+          border-radius: 10px;
+
+          ul {
+            li {
+              font-family: YuGothic, 'Yu Gothic', sans-serif;
+              line-height: 1.5em;
+              display: flex;
+              align-items: center;
+              letter-spacing: 2px;
+              margin-top: 20px;
+
+              img {
+                width: 20px;
+                display: block;
+                margin-right: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .about-page-business-lp {
+    .container {
+      .wrapper {
+        background: #776c6a;
+        font-family: YuGothic, 'Yu Gothic', sans-serif;
+        padding: 50px 0 230px 0;
+        position: relative;
+
+        .header1 {
+          font-family: 'klee', sans-serif;
+          text-align: center;
+          border: solid 2px #776c6a;
+          font-size: 1.2em;
+          width: 70%;
+          margin: 0 auto;
+          padding: 13px;
+          letter-spacing: 2px;
+          background: white;
+          position: absolute;
+          top: -30px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+        }
+
+        .header2 {
+          text-align: center;
+          font-size: 1.4em;
+          letter-spacing: 3px;
+          color: white;
+          padding: 0 10px;
+          line-height: 1.3em;
+
+          .yellow {
+            font-family: 'klee', sans-serif;
+            color: #ffd900;
+            font-size: 1.3em;
+          }
+        }
+
+        .about-wrapper {
+          background-image: url(img/bg-about.png);
+          background-position: center;
+          background-size: cover;
+          width: 80%;
+          max-width: 380px;
+          min-width: 290px;
+          margin: 0 auto;
+          color: white;
+          padding: 50px 0;
+          box-shadow: 3px 3px 10px #4D4D4D;
+          border-radius: 5px;
+          position: absolute;
+          // bottom: -200px;
+          top: 43%;
+          left: 0;
+          right: 0;
+          z-index: 2;
+          margin: 0 auto;
+
+          .header-wrapper {
+            font-family: 'klee', sans-serif;
+
+            h2 {
+              font-size: 1.5em;
+              text-align: center;
+              letter-spacing: 2px;
+
+              .init {
+                color: #9d870a;
+              }
+            }
+
+            p {
+              text-align: center;
+              letter-spacing: 1px;
+              margin-top: 3px;
+            }
+          }
+
+          .about-text {
+            font-family: YuGothic, 'Yu Gothic', sans-serif;
+            width: 90%;
+            max-width: 920px;
+            margin: 0 auto;
+            margin-top: 40px;
+            letter-spacing: 1px;
+            line-height: 1.8em;
+          }
+        }
+      }
+    }
+  }
+
+  .effect-page-business-lp {
+    .container {
+      .wrapper {
+        padding: 300px 0 60px 0;
+        background-image: url(img/bg-effect.png);
+        position: relative;
+        z-index: 1;
+
+        ul {
+          width: 80%;
+          max-width: initial;
+          min-width: initial;
+          margin: 0 auto;
+          margin-top: 50px;
+          position: relative;
+          z-index: 2;
+
+          li {
+            font-family: YuGothic, 'Yu Gothic', sans-serif;
+
+            &+li {
+              margin-top: 40px;
+            }
+
+            .list-header {
+              font-size: 1.2em;
+              color: #9d870a;
+              font-weight: bold;
+              letter-spacing: 3px;
+            }
+
+            .content {
+              letter-spacing: 2px;
+              font-size: .9em;
+              margin-top: 15px;
+              line-height: 1.7em;
+              margin-left: 35px;
+            }
+          }
+        }
+
+        >img {
+          width: 95%;
+          min-width: initial;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+
+  .service-page-business-lp {
+    .container {
+      background-image: url(img/bg-service.png);
+      background-position: center;
+      background-size: cover;
+
+      .wrapper {
+        color: white;
+        padding: 70px 0;
+
+        .service-wrapper {
+          width: 100%;
+          max-width: initial;
+          min-width: initial;
+          margin: 0 auto;
+          display: block;
+          justify-content: space-between;
+          padding-top: 0px;
+
+          .service {
+            width: 80%;
+            max-width: 380px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 50px;
+
+            img {
+              width: 100px;
+            }
+
+            h3 {
+              font-family: 'klee', sans-serif;
+              font-size: 1.2em;
+              margin-top: 30px;
+
+              span {
+                color: transparent;
+              }
+            }
+
+            p {
+              text-align: left;
+              font-family: YuGothic, 'Yu Gothic', sans-serif;
+              margin-top: 30px;
+              letter-spacing: 2px;
+              line-height: 2em;
+              font-size: .9em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .feature-page-business-lp {
+    .container {
+      background-image: url(img/bg-feature.png);
+      background-position: center;
+      background-size: cover;
+      padding-bottom: 60px;
+
+      .wrapper {
+        padding-top: 70px;
+
+        .feature-wrapper {
+          width: 100%;
+          max-width: 1440px;
+          margin: 0 auto;
+          margin-top: 60px;
+
+          .feature {
+            position: static;
+
+            &.center {
+              text-align: left;
+
+              .text {
+                position: static;
+                top: 50%;
+                left: 0;
+                transform: none;
+                text-align: left;
+                min-height: 120px;
+                transform: translateY(-30px);
+              }
+            }
+
+            &+.feature {
+              margin-top: 40px;
+            }
+
+            img {
+              width: 100%;
+            }
+
+            .text {
+              position: static;
+              top: 50%;
+              right: 0;
+              transform: none;
+              width: 90%;
+              margin: 0 auto;
+              transform: translateY(-30px);
+              background: white;
+              // height: 140px;
+              padding: 20px 0;
+              border-bottom: solid 7px #4c3635;
+
+              h3 {
+                font-family: "Halant", serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 1.2em;
+                letter-spacing: 2px;
+                color: #9d870a;
+                width: 85%;
+                margin: 0 auto;
+              }
+
+              p {
+                font-family: YuGothic, 'Yu Gothic', sans-serif;
+                width: 85%;
+                margin: 0 auto;
+                font-size: .9em;
+                line-height: 1.7em;
+                margin-top: 7px;
+                letter-spacing: 1.4px;
+              }
+            }
+          }
+        }
+
+        .btn-text {
+          font-family: 'klee', sans-serif;
+          text-align: center;
+          font-size: 1.1em;
+          letter-spacing: 3px;
+          margin-top: 40px;
+        }
+
+        .btn {
+          text-align: center;
+          width: 95%;
+          max-width: initial;
+          min-width: initial;
+          margin: 0 auto;
+          margin-top: 30px;
+          position: relative;
+          transition: .3s;
+
+          &:hover {
+            opacity: .7;
+          }
+
+          p {
+            letter-spacing: 2px;
+            font-family: YuGothic, 'Yu Gothic', sans-serif;
+            font-weight: bold;
+            font-size: .9em;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+
+          }
+        }
+      }
+    }
+  }
+
+  .flow-page-business-lp {
+    .container {
+      background-image: url(img/bg-flow.png);
+      background-position: center;
+      background-size: cover;
+
+      .wrapper {
+        padding: 60px 0;
+
+        .header-wrapper {
+          color: white;
+
+          .init {
+            color: white;
+          }
+        }
+
+        .flow-wrapper {
+          margin-top: 50px;
+
+          .flow {
+            width: 80%;
+            max-width: 380px;
+            margin: 0 auto;
+            margin-top: 70px;
+            background: white;
+            border-top: solid 7px #4c3635;
+            padding: 30px 10px;
+            position: relative;
+
+            .inner-wrapper {
+              display: block;
+              text-align: center;
+
+              img {
+                width: 80px;
+              }
+
+              .text-wrapper {
+                margin-left: 0px;
+                margin-top: 0px;
+
+                h3 {
+                  font-family: 'klee', sans-serif;
+                  font-size: 1.2em;
+                  letter-spacing: 2px;
+                  color: #9d870a;
+                  margin-top: 20px;
+                }
+
+                p {
+                  font-family: YuGothic, 'Yu Gothic', sans-serif;
+                  font-size: .9em;
+                  letter-spacing: 1.5px;
+                  line-height: 1.5em;
+                  margin-top: 20px;
+                }
+              }
+            }
+
+            .triangle {
+              width: 50px;
+              position: absolute;
+              bottom: -18px;
+              left: 0;
+              right: 0;
+              margin: 0 auto;
+            }
+          }
+        }
+
+        .btn-text {
+          font-family: 'klee', sans-serif;
+          text-align: center;
+          font-size: 1.1em;
+          letter-spacing: 3px;
+          margin-top: 40px;
+        }
+
+        .btn {
+          text-align: center;
+          width: 95%;
+          max-width: initial;
+          min-width: initial;
+          margin: 0 auto;
+          margin-top: 30px;
+          position: relative;
+          transition: .3s;
+
+          &:hover {
+            opacity: .7;
+          }
+
+          p {
+            letter-spacing: 2px;
+            font-family: YuGothic, 'Yu Gothic', sans-serif;
+            font-weight: bold;
+            font-size: .9em;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+
+          }
         }
       }
     }

@@ -382,7 +382,7 @@ header div {
           box-shadow: 3px 3px 10px #4D4D4D;
   border-radius: 5px;
   position: absolute;
-  bottom: -90%;
+  top: 67%;
   left: 0;
   right: 0;
   z-index: 2;
@@ -532,6 +532,7 @@ header div {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   text-align: left;
+  min-height: 120px;
 }
 .feature-page-business-lp .container .wrapper .feature-wrapper .feature + .feature {
   margin-top: 70px;
@@ -547,7 +548,7 @@ header div {
           transform: translateY(-50%);
   width: 52%;
   background: white;
-  height: 180px;
+  padding: 20px 0;
   border-bottom: solid 7px #4c3635;
 }
 .feature-page-business-lp .container .wrapper .feature-wrapper .feature .text h3 {
@@ -559,7 +560,6 @@ header div {
   color: #9d870a;
   width: 85%;
   margin: 0 auto;
-  padding-top: 30px;
 }
 .feature-page-business-lp .container .wrapper .feature-wrapper .feature .text p {
   font-family: YuGothic, "Yu Gothic", sans-serif;
@@ -689,4 +689,606 @@ header div {
   position: absolute;
   top: 40%;
   left: 33%;
+}
+
+.sp {
+  display: none;
+}
+
+.pc {
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .fv-page-business-lp .container {
+    background-image: url(img/fv-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0 20px 0;
+  }
+  .fv-page-business-lp .container .wrapper {
+    width: 83%;
+    max-width: 1200px;
+    min-width: 1000px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper {
+    padding-left: 3%;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .fv-message {
+    color: white;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .fv-message h2 {
+    font-family: "klee", sans-serif;
+    font-size: 2.2em;
+    line-height: 1.3em;
+    letter-spacing: 3px;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .fv-message p {
+    font-family: "klee", sans-serif;
+    line-height: 1.3em;
+    margin-top: 30px;
+    letter-spacing: 2px;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .btn {
+    margin-top: 30px;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .btn a {
+    position: relative;
+    display: block;
+    width: 350px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .btn a p {
+    position: absolute;
+    top: 32%;
+    left: 23%;
+    color: #38211f;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    letter-spacing: 1px;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .btn a:hover {
+    opacity: 0.8;
+  }
+  .fv-page-business-lp .container .wrapper .fv-img {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    width: 55%;
+    min-width: 300px;
+  }
+  .fv-page-business-lp .container .wrapper .fv-img img {
+    width: 100%;
+    display: block;
+    -webkit-box-shadow: 3px 3px 10px #4D4D4D;
+            box-shadow: 3px 3px 10px #4D4D4D;
+    margin-left: auto;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .sp {
+    display: block;
+  }
+  .pc {
+    display: none;
+  }
+  .fv-page-business-lp {
+    overflow: hidden;
+  }
+  .fv-page-business-lp .container {
+    background-image: url(img/fv-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0 20px 0;
+  }
+  .fv-page-business-lp .container .wrapper {
+    width: 83%;
+    max-width: 1200px;
+    min-width: 1000px;
+    margin: 0 auto;
+    display: block;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper {
+    padding-left: 3%;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .fv-message {
+    color: white;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .fv-message h2 {
+    font-family: "klee", sans-serif;
+    font-size: 2.2em;
+    line-height: 1.3em;
+    letter-spacing: 3px;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .fv-message p {
+    font-family: "klee", sans-serif;
+    line-height: 1.3em;
+    margin-top: 30px;
+    letter-spacing: 2px;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .btn {
+    margin-top: 30px;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .btn a {
+    position: relative;
+    display: block;
+    width: 350px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .btn a p {
+    position: absolute;
+    top: 32%;
+    left: 23%;
+    color: #38211f;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    letter-spacing: 1px;
+  }
+  .fv-page-business-lp .container .wrapper .text-wrapper .btn a:hover {
+    opacity: 0.8;
+  }
+  .fv-page-business-lp .container .wrapper .fv-img {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+    width: 55%;
+    min-width: 300px;
+  }
+  .fv-page-business-lp .container .wrapper .fv-img img {
+    width: 100%;
+    display: block;
+    -webkit-box-shadow: 3px 3px 10px #4D4D4D;
+            box-shadow: 3px 3px 10px #4D4D4D;
+    margin-left: auto;
+    border-radius: 10px;
+  }
+  .issue-page-business-lp .container {
+    background-image: url(img/bg-onayami.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .issue-page-business-lp .container .wrapper {
+    padding: 80px 0;
+  }
+  .issue-page-business-lp .container .wrapper h2 {
+    font-family: "klee", sans-serif;
+    font-size: 1.4em;
+    padding: 0 10px;
+    text-align: center;
+    color: #37201d;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .issue-page-business-lp .container .wrapper .issue-wrapper {
+    display: block;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px 10px;
+    background: #dcd4d4;
+    width: 80%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  .issue-page-business-lp .container .wrapper .issue-wrapper ul li {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    line-height: 1.5em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: 2px;
+    margin-top: 20px;
+  }
+  .issue-page-business-lp .container .wrapper .issue-wrapper ul li img {
+    width: 20px;
+    display: block;
+    margin-right: 8px;
+  }
+  .about-page-business-lp .container .wrapper {
+    background: #776c6a;
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    padding: 50px 0 230px 0;
+    position: relative;
+  }
+  .about-page-business-lp .container .wrapper .header1 {
+    font-family: "klee", sans-serif;
+    text-align: center;
+    border: solid 2px #776c6a;
+    font-size: 1.2em;
+    width: 70%;
+    margin: 0 auto;
+    padding: 13px;
+    letter-spacing: 2px;
+    background: white;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .about-page-business-lp .container .wrapper .header2 {
+    text-align: center;
+    font-size: 1.4em;
+    letter-spacing: 3px;
+    color: white;
+    padding: 0 10px;
+    line-height: 1.3em;
+  }
+  .about-page-business-lp .container .wrapper .header2 .yellow {
+    font-family: "klee", sans-serif;
+    color: #ffd900;
+    font-size: 1.3em;
+  }
+  .about-page-business-lp .container .wrapper .about-wrapper {
+    background-image: url(img/bg-about.png);
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    max-width: 380px;
+    min-width: 290px;
+    margin: 0 auto;
+    color: white;
+    padding: 50px 0;
+    -webkit-box-shadow: 3px 3px 10px #4D4D4D;
+            box-shadow: 3px 3px 10px #4D4D4D;
+    border-radius: 5px;
+    position: absolute;
+    top: 43%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    margin: 0 auto;
+  }
+  .about-page-business-lp .container .wrapper .about-wrapper .header-wrapper {
+    font-family: "klee", sans-serif;
+  }
+  .about-page-business-lp .container .wrapper .about-wrapper .header-wrapper h2 {
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  .about-page-business-lp .container .wrapper .about-wrapper .header-wrapper h2 .init {
+    color: #9d870a;
+  }
+  .about-page-business-lp .container .wrapper .about-wrapper .header-wrapper p {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 3px;
+  }
+  .about-page-business-lp .container .wrapper .about-wrapper .about-text {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    width: 90%;
+    max-width: 920px;
+    margin: 0 auto;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+  }
+  .effect-page-business-lp .container .wrapper {
+    padding: 300px 0 60px 0;
+    background-image: url(img/bg-effect.png);
+    position: relative;
+    z-index: 1;
+  }
+  .effect-page-business-lp .container .wrapper ul {
+    width: 80%;
+    max-width: initial;
+    min-width: initial;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+  }
+  .effect-page-business-lp .container .wrapper ul li {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+  }
+  .effect-page-business-lp .container .wrapper ul li + li {
+    margin-top: 40px;
+  }
+  .effect-page-business-lp .container .wrapper ul li .list-header {
+    font-size: 1.2em;
+    color: #9d870a;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  .effect-page-business-lp .container .wrapper ul li .content {
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    margin-top: 15px;
+    line-height: 1.7em;
+    margin-left: 35px;
+  }
+  .effect-page-business-lp .container .wrapper > img {
+    width: 95%;
+    min-width: initial;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .service-page-business-lp .container {
+    background-image: url(img/bg-service.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .service-page-business-lp .container .wrapper {
+    color: white;
+    padding: 70px 0;
+  }
+  .service-page-business-lp .container .wrapper .service-wrapper {
+    width: 100%;
+    max-width: initial;
+    min-width: initial;
+    margin: 0 auto;
+    display: block;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 0px;
+  }
+  .service-page-business-lp .container .wrapper .service-wrapper .service {
+    width: 80%;
+    max-width: 380px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .service-page-business-lp .container .wrapper .service-wrapper .service img {
+    width: 100px;
+  }
+  .service-page-business-lp .container .wrapper .service-wrapper .service h3 {
+    font-family: "klee", sans-serif;
+    font-size: 1.2em;
+    margin-top: 30px;
+  }
+  .service-page-business-lp .container .wrapper .service-wrapper .service h3 span {
+    color: transparent;
+  }
+  .service-page-business-lp .container .wrapper .service-wrapper .service p {
+    text-align: left;
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-size: 0.9em;
+  }
+  .feature-page-business-lp .container {
+    background-image: url(img/bg-feature.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 60px;
+  }
+  .feature-page-business-lp .container .wrapper {
+    padding-top: 70px;
+  }
+  .feature-page-business-lp .container .wrapper .feature-wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  .feature-page-business-lp .container .wrapper .feature-wrapper .feature {
+    position: static;
+  }
+  .feature-page-business-lp .container .wrapper .feature-wrapper .feature.center {
+    text-align: left;
+  }
+  .feature-page-business-lp .container .wrapper .feature-wrapper .feature.center .text {
+    position: static;
+    top: 50%;
+    left: 0;
+    -webkit-transform: none;
+            transform: none;
+    text-align: left;
+    min-height: 120px;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  .feature-page-business-lp .container .wrapper .feature-wrapper .feature + .feature {
+    margin-top: 40px;
+  }
+  .feature-page-business-lp .container .wrapper .feature-wrapper .feature img {
+    width: 100%;
+  }
+  .feature-page-business-lp .container .wrapper .feature-wrapper .feature .text {
+    position: static;
+    top: 50%;
+    right: 0;
+    -webkit-transform: none;
+            transform: none;
+    width: 90%;
+    margin: 0 auto;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+    background: white;
+    padding: 20px 0;
+    border-bottom: solid 7px #4c3635;
+  }
+  .feature-page-business-lp .container .wrapper .feature-wrapper .feature .text h3 {
+    font-family: "Halant", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    color: #9d870a;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .feature-page-business-lp .container .wrapper .feature-wrapper .feature .text p {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    width: 85%;
+    margin: 0 auto;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    margin-top: 7px;
+    letter-spacing: 1.4px;
+  }
+  .feature-page-business-lp .container .wrapper .btn-text {
+    font-family: "klee", sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    margin-top: 40px;
+  }
+  .feature-page-business-lp .container .wrapper .btn {
+    text-align: center;
+    width: 95%;
+    max-width: initial;
+    min-width: initial;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .feature-page-business-lp .container .wrapper .btn:hover {
+    opacity: 0.7;
+  }
+  .feature-page-business-lp .container .wrapper .btn p {
+    letter-spacing: 2px;
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .flow-page-business-lp .container {
+    background-image: url(img/bg-flow.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .flow-page-business-lp .container .wrapper {
+    padding: 60px 0;
+  }
+  .flow-page-business-lp .container .wrapper .header-wrapper {
+    color: white;
+  }
+  .flow-page-business-lp .container .wrapper .header-wrapper .init {
+    color: white;
+  }
+  .flow-page-business-lp .container .wrapper .flow-wrapper {
+    margin-top: 50px;
+  }
+  .flow-page-business-lp .container .wrapper .flow-wrapper .flow {
+    width: 80%;
+    max-width: 380px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background: white;
+    border-top: solid 7px #4c3635;
+    padding: 30px 10px;
+    position: relative;
+  }
+  .flow-page-business-lp .container .wrapper .flow-wrapper .flow .inner-wrapper {
+    display: block;
+    text-align: center;
+  }
+  .flow-page-business-lp .container .wrapper .flow-wrapper .flow .inner-wrapper img {
+    width: 80px;
+  }
+  .flow-page-business-lp .container .wrapper .flow-wrapper .flow .inner-wrapper .text-wrapper {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .flow-page-business-lp .container .wrapper .flow-wrapper .flow .inner-wrapper .text-wrapper h3 {
+    font-family: "klee", sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    color: #9d870a;
+    margin-top: 20px;
+  }
+  .flow-page-business-lp .container .wrapper .flow-wrapper .flow .inner-wrapper .text-wrapper p {
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+    margin-top: 20px;
+  }
+  .flow-page-business-lp .container .wrapper .flow-wrapper .flow .triangle {
+    width: 50px;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .flow-page-business-lp .container .wrapper .btn-text {
+    font-family: "klee", sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    margin-top: 40px;
+  }
+  .flow-page-business-lp .container .wrapper .btn {
+    text-align: center;
+    width: 95%;
+    max-width: initial;
+    min-width: initial;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .flow-page-business-lp .container .wrapper .btn:hover {
+    opacity: 0.7;
+  }
+  .flow-page-business-lp .container .wrapper .btn p {
+    letter-spacing: 2px;
+    font-family: YuGothic, "Yu Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=style.css.map */
